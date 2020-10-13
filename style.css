@@ -1,0 +1,125 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+  background-color: #FFA281;
+  font-family: sans-serif;
+}
+
+.mainContainer {
+  padding: 0px;
+  margin: 0px;
+}
+
+.circle {
+  display: flex;
+  height: 125vmin;
+  width: 120vmin;
+  background-color: #F4D58D;
+  border-radius: 50%;
+  margin-left: 29vmin;
+  margin-top: -75vmin;
+}
+
+/*
+
+Would've been for the square design but couldn't
+get it to work
+
+.square {
+  display: flex;
+  height: 80vmin;
+  width: 150vmin;
+  background-color: #9DD8E3;
+  margin-left: -20vmin;
+  margin-top: -19vmin;
+  transform: rotate(-10deg);
+} */
+
+
+
+/* -------- WORDS ----------*/
+
+.driedFruit p  {
+  display: flex;
+  font-size: 25vmin;
+  color: #9DD8E3;
+  margin-left: 5vmin;
+  margin-top: 13vmin;
+  line-height: 0.01em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cake {
+  margin-left: 11vmin;
+  margin-top: -18vmin;
+}
+
+.cake p {
+  font-size: 14vmin;
+  color: white;
+  line-height: 0.0001em;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.numbers p {
+  margin-left: 11vmin;
+  margin-top: 80vmin;
+  font-size: 9vmin;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  color: #F4D58D;
+}
+
+.raisins p {
+  display: flex;
+  font-size: 9vmin;
+  color: white;
+  margin-left: 111vmin;
+  margin-top: -90vmin;
+  color: #FDBCBC;
+}
+
+.pomegranate p {
+  display: flex;
+  font-size: 9vmin;
+  color: white;
+  margin-left: 111vmin;
+  margin-top: -8vmin;
+  color: #FDBCBC;
+}
+
+.pine p {
+  display: flex;
+  font-size: 9vmin;
+  color: white;
+  margin-left: 111vmin;
+  margin-top: -8vmin;
+  color: #FDBCBC;
+}
+
+.nuts {
+  display: flex;
+  font-size: 8vmin;
+  margin-top: -151vmin;
+  color: black;
+  transform: rotate(-90deg);
+  font-family: 'Assistant', sans-serif;
+}
+
+.nutsTwo {
+  display: flex;
+  font-size: 8vmin;
+  margin-top: 55vmin;
+  color: black;
+  transform: rotate(-90deg);
+  font-family: 'Assistant', sans-serif;
+}
+
+.fruit p {
+  font-size: 20vmin;
+  font-family: 'Source Sans Pro', sans-serif;
+  transform: rotate(-90deg);
+  margin-left: 30vmin;
+  margin-top: -115vmin;
+  color: white;
+}
