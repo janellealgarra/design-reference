@@ -5,6 +5,11 @@ body, html {
   font-family: sans-serif;
 }
 
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .mainContainer {
   padding: 0px;
   margin: 0px;
@@ -35,7 +40,24 @@ get it to work
   transform: rotate(-10deg);
 } */
 
+.driedFruit, .cake, .fruit, .numbers, .raisins, .pomegranate, .pine, .nutsTwo {
+   /* Placing all the content boxes above the square–
+   this requires us to set a position property. */
+   position: relative;
+   z-index: +99 !important;
+ }
 
+ .square {
+   display: flex;
+   height: 80vmin;
+   width: 150vmin;
+   background-color: #9DD8E3;
+   margin-left: -20vmin;
+   margin-top: -19vmin;
+   transform: rotate(-10deg); */
+   /* Moving the square to the bottom */
+   top: 80vmin;
+ }
 
 /* -------- WORDS ----------*/
 
